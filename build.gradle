@@ -1,0 +1,27 @@
+// eproject/build.gradle
+
+allprojects {
+    repositories {
+        // 공통 Maven 리포지토리 설정
+        mavenCentral()
+    }
+}
+
+subprojects {
+    // 모든 서브 프로젝트에 공통 적용되는 플러그인 및 설정
+    apply plugin: 'java'
+
+    group = 'com.example'
+    version = '1.0'
+
+    dependencies {
+        // 공통 테스트 디펜던시 (예시)
+        testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
+
+        // Hibernate 의존성 추가
+        implementation 'org.hibernate.orm:hibernate-core:6.6.2.Final'
+
+        // MariaDB JDBC 드라이버 추가
+        implementation 'org.mariadb.jdbc:mariadb-java-client:3.1.4'
+    }
+}
