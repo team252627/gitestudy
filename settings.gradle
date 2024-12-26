@@ -1,0 +1,3 @@
+rootProject.name = 'eproject'
+include 'backend'
+include 'frontend'
