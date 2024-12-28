@@ -10,6 +10,7 @@ public class BackendApplication {
 	public static void main(String[] args) {
 		log.debug("파일 변경 커밋 확인 ▶▶▶▶▶▶▶▶▶");
 		log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶");
+		log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 승혁");
 		SpringApplication.run(BackendApplication.class, args);
 	}
 }
