@@ -8,7 +8,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @SpringBootApplication
 public class BackendApplication {
 	public static void main(String[] args) {
-		log.debug("파일 변경 커밋 확인 ▶▶▶▶▶▶▶▶▶");
+		log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶");
+        log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 한미1");
+        log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 승혁1");
+        log.debug("충돌 테스트 1");
+		log.debug("규칙 테스트 1");
+
+
+
 		SpringApplication.run(BackendApplication.class, args);
 	}
 }
