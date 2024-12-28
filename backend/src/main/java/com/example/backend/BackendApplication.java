@@ -11,7 +11,8 @@ public class BackendApplication {
 		log.debug("파일 변경 커밋 확인 ▶▶▶▶▶▶▶▶▶");
 		log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶");
 		log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 승혁");
-		log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 승혁2");
+        log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 승혁2");
+        log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 한미");
 		SpringApplication.run(BackendApplication.class, args);
 	}
 }
