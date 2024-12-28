@@ -12,6 +12,7 @@ public class BackendApplication {
         log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 한미1");
         log.debug("git clone 확인 ▶▶▶▶▶▶▶▶▶ -- 승혁1");
         log.debug("충돌 테스트 1");
+		log.debug("규칙 테스트 1");
 
 
 
